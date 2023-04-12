@@ -1,0 +1,114 @@
+.no-supports-ar .ar-kit-link,
+.supports-ar .ar-kit-copy {
+    display: none;
+}
+
+/* adjust WITB spacing */
+.rf-flagship-buyflow-witb .rc-witb-item:first-child .rc-witb-image-wrapper {
+    padding-left: 245px;
+}
+
+.rf-flagship-buyflow-witb .rc-witb-item:first-child .rc-witb-item-label {
+    padding-left: 260px;
+}
+
+.rf-flagship-buyflow-witb .rc-witb-item:last-child .rc-witb-image-wrapper {
+    padding-right: 245px;
+}
+
+.rf-flagship-buyflow-witb .rc-witb-item:last-child .rc-witb-item-label {
+    padding-right: 260px;
+}
+
+.as-footnotes .as-footnotes-sosumi sup:lang(zh-CN) {
+    font-family: SF Pro SC,SF Pro Text,Myriad Set Pro,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.cn .colornav-logo-productred {
+    display: none;
+}
+
+.rf-productlocator-filter-dimension input[name="pl_dimensionCapacity"]~.form-selector-label {
+    padding: 15px 12px;
+}
+
+.rf-productlocator-filter-dimension input[name="pl_dimensionCapacity"]:checked~.form-selector-label {
+    padding: 14px 11px;
+}
+
+.rf-flagship-buyflow-witb .rc-witb-image-wrapper {
+    background-color: #FBFBFD;
+}
+
+.rf-bfe-availability-buystrip .rf-bfe-availability-scroller-content {
+  height: 3.47059rem;
+}
+
+.rf-bfe-summary-price-box .rf-ac-messages a {
+    display: inline-block;
+}
+
+.rc-decisionsection-image-wrapper {
+    max-width: 120px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .rc-decisionsection-image-wrapper {
+        max-width: 112px;
+    }
+}
+
+.rf-bfe-summary-price-box .rc-prices-installmentsseparator {
+    padding: 0 0 2px;
+}
+
+.rf-bfe-compliance-container {
+    padding-top: 22px;
+}
+
+.rc-ribbon-gallery-item[aria-hidden='true'] a,
+.rc-ribbon-gallery-item[aria-hidden='true'] button {
+    display: inline-block;
+    visibility: hidden;
+}
+
+.rc-ribbon-content-item-base .more {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .rf-bfe-summary-price-box .rc-prices-footer .rc-prices-purchaseoptiondescription .as-purchaseinfo-tradeindesctext {
+      margin-top: -26px;
+    }
+
+    .rf-bfe-summary-price-box .as-price-currentprice .as-price-highlight,
+    .rf-bfe-summary-price-box .rc-prices-currentprice .as-price-highlight {
+        padding-top: 0;
+    }
+
+    .rf-bfe-summary-border-fullWidth {
+        padding-bottom: 25px;
+    }
+
+    .rf-bfe-summary-border-fullWidth + .rf-bfe-summary-border-fullWidth {
+      margin-top: 0;
+    }
+}
+
+.rf-productlocator-selectstorebtn.button-block {
+    padding: 8px 16px;
+}
+
+.rf-po-bfe-financingoption-description + .rf-po-bfe-financingoption-subsectionheader {
+      padding-top: 10px;
+}
+
+@media only screen and (max-width: 1023px) and (max-device-width: 736px) {
+    .rf-bfe-stickybar-fulfillment .rf-fulfillment-quote-leadbypickup .rf-pickup-quote-sticky-info {
+        padding-right: 0px;
+    }
+
+    .rf-bfe-stickybar-fulfillment .rf-fulfillment-quote-leadbypickup .rf-dude-quote-sticky-info {
+        padding-right: 42px;
+    }
+}
